@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'https://aesthetic-toffee-55b125.netlify.app/',
+    origin:'https://aesthetic-toffee-55b125.netlify.app',
     credentials:true
 }
 app.use(cors(corsOptions));
